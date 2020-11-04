@@ -1,0 +1,53 @@
+.swiper-slide{
+    background-color: aquamarine;
+    width: 600px;
+    height: 300px;
+}
+.lbt{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: bisque;
+}
+.swiper-container{
+    --swiper-theme-color: #ff6600;/* 设置Swiper风格 */
+    --swiper-navigation-color: #00ff33;/* 单独设置按钮颜色 */
+    --swiper-navigation-size: 30px;/* 设置按钮大小 */
+}
+.imooc-navbar-brand img{
+    width: 80px;
+    height: 100%;
+    margin-left: 20px;
+}
+.imooc-imooc-navbar {
+    position: relative;
+    min-height: 72px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+  }
+  .imooc-navbar-brand {
+    float: left;
+    height: 50px;
+    /* padding: 15px 15px; */
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .imooc-navbar-brand:hover,
+  .imooc-navbar-brand:focus {
+    text-decoration: none;
+  }
+  .imooc-navbar-brand > img {
+    display: block;
+  }
+  @media (min-width: 768px) {
+    .imooc-navbar > .container .imooc-navbar-brand,
+    .imooc-navbar > .container-fluid .imooc-navbar-brand {
+      margin-left: -15px;
+    }
+  }
+  .container-fluid{
+      background: #fff;
+      box-shadow: 10px 10px 5px #cacaca;
+  }

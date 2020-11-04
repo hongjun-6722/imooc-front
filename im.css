@@ -1,0 +1,285 @@
+.box-active {
+  position: fixed !important;
+  top: 0;
+}
+body {
+  min-width: 1200px;
+}
+.part1 {
+  background-color: white;
+  min-width: 1200px;
+  width: 100%;
+  z-index: 999;
+  position: relative;
+}
+.part1 .container-fluid {
+  width: 100%;
+}
+.part1 .container-fluid .navbar {
+  overflow: hidden;
+  height: 72px;
+  box-shadow: 0px 4px 8px 0px rgba(7, 17, 27, 0.1);
+  width: 100%;
+}
+.part1 .container-fluid .navbar .logo {
+  margin: 0px 20px;
+  height: 100%;
+  width: 120px;
+  float: left;
+}
+.part1 .container-fluid .navbar .logo img {
+  width: 126px;
+  height: 72px;
+  float: left;
+  margin-left: 4px;
+}
+.part1 .container-fluid .navbar .list {
+  display: block;
+  height: 100%;
+  margin-left: 160px;
+}
+.part1 .container-fluid .navbar .list ul li {
+  list-style: none;
+  padding: 10px 15px;
+  float: left;
+}
+.part1 .container-fluid .navbar .list ul li a {
+  color: #4d555d;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  height: 52px;
+  line-height: 52px;
+  text-decoration: none;
+}
+.part1 .container-fluid .navbar .list ul li a span {
+  font-size: smaller;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  width: 16px;
+  height: 16px;
+  color: white;
+  background-color: rgba(226, 38, 38, 0.651);
+}
+.part1 .container-fluid .navbar .list ul li a:hover {
+  color: #07111b;
+}
+.part1 .container-fluid .navbar .list .search {
+  width: 324px;
+  height: 40px;
+  padding-right: 40px;
+  margin: 16px 0px;
+  background-color: #e9e9e9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+.part1 .container-fluid .navbar .list .search input:focus {
+  outline: none;
+}
+.part1 .container-fluid .navbar .list .search .form-control {
+  padding: 8px 12px;
+  line-height: 24px;
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  border: 0px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #e9e9e9;
+}
+.part1 .container-fluid .navbar .list .search button {
+  width: 20px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 0px;
+}
+.part1 .container-fluid .navbar .list .r-list {
+  float: right;
+}
+.fix {
+  position: fixed;
+  z-index: 500;
+  right: 0px;
+  top: 40%;
+  padding: 0 16px;
+  background-color: #fff;
+  box-shadow: -2px 2px 9px 4px rgba(7, 17, 27, 0.1);
+}
+.fix .fix-el {
+  height: 24px;
+  padding: 16px 0;
+  width: 26px;
+  border-bottom: 1px solid #edf1f2;
+}
+.fix .fix-el span {
+  font-size: 12px;
+  line-height: 14px;
+}
+.fix .fix-el:hover {
+  height: 40px;
+}
+.fix .fix-last {
+  border-bottom: none;
+}
+.main {
+  width: 1152px;
+  min-width: 1100px;
+  height: 382px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: bisque;
+  position: relative;
+  border-radius: 8px ;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px 0px rgba(7, 17, 27, 0.3);
+}
+.main .menu {
+  position: absolute;
+  left: 0;
+  width: 25%;
+  height: 362px;
+  background-color: rgba(7, 17, 27, 0.5);
+  padding-top: 20px;
+  border-top-left-radius: 8px ;
+  border-bottom-left-radius: 8px;
+}
+.main .menu .menuContent {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.main .menu .menuContent a {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0px 16px;
+  height: 50px;
+}
+.main .menu .menuContent a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+.main .swiper-container {
+  border-top-right-radius: 8px ;
+  border-bottom-right-radius: 8px;
+  width: 75%;
+  height: 100%;
+  right: 0px;
+  position: absolute;
+  --swiper-navigation-color: #2fbe93;
+  /* 单独设置按钮颜色 */
+  --swiper-navigation-size: 30px;
+  /* 设置按钮大小 */
+}
+.main .swiper-container .swiper-pagination-bullet {
+  opacity: 0.8;
+  background-color: whitesmoke;
+  width: 40px;
+  height: 20px;
+}
+.main .swiper-container .my-bullet-active {
+  background-color: #fc2626;
+  width: 60px;
+}
+.main .swiper-container .swiper-slide {
+  background-color: aquamarine;
+}
+.main .swiper-container .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.main .swiper-container .btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: rgba(183, 215, 241, 0.603);
+}
+.main .swiper-container .hide {
+  position: absolute;
+  background-color: wheat;
+  top: 0px;
+  width: 80%;
+  height: 382px;
+  z-index: 30;
+  display: none;
+}
+.main .swiper-container .hide .hideTop {
+  height: 55%;
+  background-color: white;
+}
+.main .swiper-container .hide .hideBottom {
+  background-color: rgba(7, 17, 27, 0.3);
+  height: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .swiper-container .hide .hideBottom .B-el {
+  width: 40%;
+  height: 40%;
+  margin: auto;
+  background-color: #ff6600;
+  flex-wrap: wrap;
+}
+.part2 {
+  width: 80%;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: darkcyan;
+}
+.part2 .titleWord {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.part2 .titleWord .intro {
+  padding-left: 10px;
+}
+.part2 .p2-f {
+  margin-top: 20px;
+  display: flex;
+}
+.part2 .p2-f .F-el {
+  width: 230px;
+  height: 70px;
+  margin: auto;
+  background-color: #ff6600;
+  border-radius: 8px;
+}
+.part3 {
+  width: 100%;
+  height: 500px;
+  background-color: #33869b;
+  margin: 20px 0;
+}
+.part3 .p3-container {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  background-color: steelblue;
+}
+.part3 .p3-container .p3-title {
+  padding: 15px;
+  height: 40px;
+  font-weight: bolder;
+  font-size: larger;
+}
+.part3 .p3-container .p3-pj {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 420px;
+  margin: 5px auto;
+}
+.part3 .p3-container .p3-pj .p3-el {
+  width: 250px;
+  height: 200px;
+  margin: auto;
+  background-color: #ff6600;
+}
