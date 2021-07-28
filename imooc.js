@@ -131,16 +131,6 @@ var fix = new Vue({
       message3: '意见反馈',
       message4: '意见反馈',
     },
-    // methods: {
-    //     greet: function (event) {
-    //       // `this` 在方法里指向当前 Vue 实例
-    //       alert('Hello ' + this. + '!')
-    //       // `event` 是原生 DOM 事件
-    //     //   if (event) {
-    //     //     alert(event.target.tagName)
-    //     //   }
-    //     }
-    //   }
 })
 
 $(".a").hide();
