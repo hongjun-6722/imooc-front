@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕课网</title>
+    <link rel="stylesheet" href="common/css/swiper-bundle.css">
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <div class="top-navigation">
+      <!-- 导航区 -->
+      <nav class="navbar">
+        <!-- 商标 -->
+        <div class="logo">
+          <a href="#">
+            <img src="../../assets/images/logo-recommended.png">
+          </a>
+        </div>
+        <!-- 折叠区域 -->
+        <div class="list">
+          <!-- 左列表 -->
+          <ul class="l-list fl">
+            <li>
+              <a href="#">免费课程</a>
+            </li>
+            <li>
+              <a href="#">实战课程</a>
+            </li>
+            <li>
+              <a href="#">
+                金职位
+                <span class="icn-new">N</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">wiki</a>
+            </li>
+            <li>
+              <a href="#">专栏</a>
+            </li>
+            <li>
+              <a href="#">手记</a>
+            </li>
+          </ul>
+          <!-- 搜索栏 -->
+          <form class="search fl">
+            <span class="form-group">
+              <input type="text" class="form-control" placeholder="请输入关键字">
+            </span>
+            <button type="submit" class="btn btn-default" style="background: url(../../assets/images/search.png) no-repeat;background-size:20px 20px;"></button>
+          </form>
+          <!-- 右列表 -->
+          <ul class="r-list fl fr">
+            <li><a href="#">下载APP</a></li>
+            <li><a href="#">购物车</a></li>
+            <li><a href="#">我的课程</a></li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <!-- 顶部导航栏占位 -->
+  <div class="sitBox" style="width: 100%; height: 72px; display: none;"></div>
+  <!-- 侧边导航栏 -->
+  <div class="sidebar-navigation">
+    <div class="sidebar-el" data-el='el-1'>
+      <a href="#">
+        <i class="sidebar-i"></i>
+        <span class="sidebar-span">
+          人工智能
+        </span>
+      </a>
+    </div>
+    <div class="sidebar-el" data-el='el-2'>
+      <a href="#">
+        <i class="sidebar-i" ></i>
+        <span class="sidebar-span">
+          前端
+        </span>
+      </a>
+    </div>
+    <div class="sidebar-el" data-el='el-3'>
+      <a href="#">
+        <i class="sidebar-i"></i>
+        <span class="sidebar-span">
+          后端
+        </span>
+      </a>
+    </div>
+    <div class="sidebar-el sidebar-last" data-el='el-4'>
+      <a href="#">
+        <i class="sidebar-i"></i>
+        <span class="sidebar-span">
+          运动
+        </span>
+      </a>
+    </div>
+  </div>
+  <div class="banner-box">
+    <div class="banner-main">
+      <div class="menu">
+        <div class="menu-item" data-menu="menu1">
+          <a>
+            <span>前沿/区块链/人工智能</span>
+            <i></i>
+          </a>
+        </div>
+        <div class="menu-item" data-menu="menu2">
+          <a>
+            <span>前端</span>
+            <i></i>
+          </a>
+        </div>
+        <div class="menu-item" data-menu="menu3">
+          <a>
+            <span>后端</span>
+            <i></i>
+          </a>
+        </div>
+        <div class="menu-item" data-menu="menu4">
+          <a>
+            <span>运动</span>
+            <i></i>
+          </a>
+        </div>
+      </div>
+      <!-- 弹出盒 -->
+      <div class="menu-popbox">
+        <div class="popbox-inner" data-popbox="menu1">
+          <div class="hideTop">
+            <span class="toptext">前沿技术1</span>
+            <span>前沿技术1</span>
+          </div>
+          <div class="hideBottom">
+            <div class="B-el"><a title=""><img src="../../assets/images/s1.png"><h3>{{a.course1}}</h3></a></div>
+            <div class="B-el"><a title=""><img src="../../assets/images/s1.png"><h3>{{a.course2}}</h3></a></div>
+            <div class="B-el"><a title=""><img src="../../assets/images/s1.png"><h3>{{a.course3}}</h3></a></div>
+            <div class="B-el"><a title=""><img src="../../assets/images/s1.png"><h3>{{a.course4}}</h3></a></div>
+          </div>
+        </div>
+        <div class="popbox-inner" data-popbox="menu2">
+          <div class="hideTop">
+            <span class="toptext">前沿技术2</span>
+            <span>前沿技术2</span>
+          </div>
+          <div class="hideBottom">
+            <div class="B-el"><a title=""><img src="../../assets/images/s1.png"><h3>{{b.course1}}</h3></a></div>
+            <div class="B-el"><a title=""><img src="../../assets/images/s1.png"><h3>{{b.course2}}</h3></a></div>
+            <div class="B-el"><a title=""><img src="../../assets/images/s1.png"><h3>{{b.course3}}</h3></a></div>
+            <div class="B-el"><a title=""><img src="../../assets/images/s1.png"><h3>{{b.course4}}</h3></a></div>
+          </div>
+        </div>
+      </div>
+      <!-- banner轮播 -->
+      <div class="banner-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../../assets/images/s1.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="../../assets/images/s2.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="../../assets/images/s3.png">
+              </div>
+            </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev btn"></div>
+          <div class="swiper-button-next btn"></div>
+        </div>
+      </div>
+    </div> 
+    <div class="part2a" >   
+      <div class="titleWord">
+        <span class="bigblack">零基础就业</span>
+        <span class="intro">从入门到具备1年开发经验</span>
+      </div>
+      <div class="p2-f">
+        <div class="F-el">
+          <i style="background: url(../../assets/images/icon.png)  0% 25%/48px 240px no-repeat;"></i>
+          <span class="tit">Java工程师体系课</span>
+          <span class="desc">Java工程师体系课</span>
+        </div>
+        <div class="F-el">
+          <i style="background: url(../../assets/images/icon.png)  0% 0%/48px 240px no-repeat;"></i>
+          <span class="tit">Java工程师体系课</span>
+          <span class="desc">Java工程师体系课</span>
+        </div>
+        <div class="F-el">
+        <i style="background: url(../../assets/images/icon.png)  0% 50%/48px 240px no-repeat;"></i>
+        <span class="tit">Java工程师体系课</span>
+        <span class="desc">Java工程师体系课</span>
+      </div>
+        <div class="F-el">
+        <i style="background: url(../../assets/images/icon.png)  0% 75%/48px 240px no-repeat;"></i>
+        <span class="tit">Java工程师体系课</span>
+        <span class="desc">Java工程师体系课</span>
+      </div>
+      </div>
+    </div>
+
+    <div class="part2b">   
+    <div class="titleWord">
+      <span class="bigblack">零基础就业</span>
+      <span class="intro">从入门到具备1年开发经验</span>
+    </div>
+    <div class="p2-f">
+      <div class="F-el" style="background: url(../../assets/images/partb.png) 0% 0% / 270px 90px no-repeat;"></div>
+      <div class="F-el" style="background: url(../../assets/images/partb.png) 0% 0% / 270px 90px no-repeat;"></div>
+      <div class="F-el" style="background: url(../../assets/images/partb.png) 0% 0% / 270px 90px no-repeat;"></div>
+      <div class="F-el" style="background: url(../../assets/images/partb.png) 0% 0% / 270px 90px no-repeat;"></div>
+    </div>
+    </div>
+  </div>
+
+  <div class="part3">
+    <div class="p3-container">
+      <div class="p3-title">新上好课</div>
+      <div class="p3-pj">
+        <div class="p3-el">
+          <i style="background: url(../../assets/images/part3.png) 0px 0px/100% 100% no-repeat;"></i>
+          <h3>Go+Python双语言混合开发</h3>
+        </div>
+        <div class="p3-el">
+          <i style="background: url(../../assets/images/part3.png) 0px 0px/100% 100% no-repeat;"></i>
+          <h3>Go+Python双语言混合开发</h3>
+        </div>
+        <div class="p3-el">
+          <i style="background: url(../../assets/images/part3.png) 0px 0px/100% 100% no-repeat;"></i>
+          <h3>Go+Python双语言混合开发</h3>
+        </div>
+        <div class="p3-el">
+          <i style="background: url(../../assets/images/part3.png) 0px 0px/100% 100% no-repeat;"></i>
+          <h3>Go+Python双语言混合开发</h3>
+        </div>
+        <div class="p3-el">
+          <i style="background: url(../../assets/images/part3.png) 0px 0px/100% 100% no-repeat;"></i>
+          <h3>Go+Python双语言混合开发</h3>
+        </div>
+        <div class="p3-el">
+          <i style="background: url(../../assets/images/part3.png) 0px 0px/100% 100% no-repeat;"></i>
+          <h3>Go+Python双语言混合开发</h3>
+        </div>
+        <div class="p3-el">
+          <i style="background: url(../../assets/images/part3.png) 0px 0px/100% 100% no-repeat;"></i>
+          <h3>Go+Python双语言混合开发</h3>
+        </div>
+        <div class="p3-el">
+          <i style="background: url(../../assets/images/part3.png) 0px 0px/100% 100% no-repeat;"></i>
+          <h3>Go+Python双语言混合开发</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="partl">
+    <div class="container">
+      <ul>
+        <a>企业服务</a>
+        <a>人才招聘</a>
+        <a>联系我们</a>
+        <a>讲师招募</a>
+        <a>帮助中心</a>
+        <a>意见反馈</a>
+        <a>慕课大学</a>
+        <a>代码托管</a>
+        <a>友情链接</a>
+      </ul>
+      <div class="link_r">
+        <div class="wx">
+          <i style="background: url(../../assets/images/partlink_btm.png) -50px 100%/188px 294px no-repeat;"></i>
+          <p>官方公众号</p>
+        </div>
+        <div class="wb">
+          <i style="background: url(../../assets/images/partlink_btm.png) 0px 100%/188px 294px no-repeat;"></i>
+          <p>官方微博</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="common/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="common/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="common/js/swiper.min.js"></script>
+</body>
+</html>
